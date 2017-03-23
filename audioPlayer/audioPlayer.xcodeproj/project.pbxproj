@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A09D01701DAF0BAC00EB2ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09D016F1DAF0BAC00EB2ECC /* AppDelegate.swift */; };
+		A09D01731DAF0BAC00EB2ECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09D01721DAF0BAC00EB2ECC /* ViewController.swift */; };
+		A09D01761DAF0BAC00EB2ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09D01741DAF0BAC00EB2ECC /* Main.storyboard */; };
+		A09D01781DAF0BAC00EB2ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09D01771DAF0BAC00EB2ECC /* Assets.xcassets */; };
+		A09D017B1DAF0BAC00EB2ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09D01791DAF0BAC00EB2ECC /* LaunchScreen.storyboard */; };
+		A09D01831DAF0E2300EB2ECC /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A09D01821DAF0E2300EB2ECC /* NextButton.png */; };
+		A09D01851DAF0E5A00EB2ECC /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A09D01841DAF0E5A00EB2ECC /* pauseButton.png */; };
+		A09D01871DAF0E6F00EB2ECC /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A09D01861DAF0E6F00EB2ECC /* playButton.png */; };
+		A09D01891DAF124000EB2ECC /* 03 No Sugar No Cream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09D01881DAF124000EB2ECC /* 03 No Sugar No Cream.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A09D01681DAF0BAC00EB2ECC /* audioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09D016F1DAF0BAC00EB2ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A09D01721DAF0BAC00EB2ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A09D01751DAF0BAC00EB2ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A09D01771DAF0BAC00EB2ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A09D017A1DAF0BAC00EB2ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A09D017C1DAF0BAC00EB2ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09D01821DAF0E2300EB2ECC /* NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NextButton.png; path = ../NextButton.png; sourceTree = "<group>"; };
+		A09D01841DAF0E5A00EB2ECC /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pauseButton.png; path = ../pauseButton.png; sourceTree = "<group>"; };
+		A09D01861DAF0E6F00EB2ECC /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playButton.png; path = ../playButton.png; sourceTree = "<group>"; };
+		A09D01881DAF124000EB2ECC /* 03 No Sugar No Cream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "03 No Sugar No Cream.mp3"; path = "../03 No Sugar No Cream.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09D01651DAF0BAC00EB2ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A09D015F1DAF0BAC00EB2ECC = {
+			isa = PBXGroup;
+			children = (
+				A09D016A1DAF0BAC00EB2ECC /* audioPlayer */,
+				A09D01691DAF0BAC00EB2ECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A09D01691DAF0BAC00EB2ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09D01681DAF0BAC00EB2ECC /* audioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09D016A1DAF0BAC00EB2ECC /* audioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A09D016F1DAF0BAC00EB2ECC /* AppDelegate.swift */,
+				A09D01721DAF0BAC00EB2ECC /* ViewController.swift */,
+				A09D01741DAF0BAC00EB2ECC /* Main.storyboard */,
+				A09D01771DAF0BAC00EB2ECC /* Assets.xcassets */,
+				A09D01791DAF0BAC00EB2ECC /* LaunchScreen.storyboard */,
+				A09D017C1DAF0BAC00EB2ECC /* Info.plist */,
+				A09D01821DAF0E2300EB2ECC /* NextButton.png */,
+				A09D01841DAF0E5A00EB2ECC /* pauseButton.png */,
+				A09D01861DAF0E6F00EB2ECC /* playButton.png */,
+				A09D01881DAF124000EB2ECC /* 03 No Sugar No Cream.mp3 */,
+				A09D016B1DAF0BAC00EB2ECC /* Supporting Files */,
+			);
+			path = audioPlayer;
+			sourceTree = "<group>";
+		};
+		A09D016B1DAF0BAC00EB2ECC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09D01671DAF0BAC00EB2ECC /* audioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09D017F1DAF0BAC00EB2ECC /* Build configuration list for PBXNativeTarget "audioPlayer" */;
+			buildPhases = (
+				A09D01641DAF0BAC00EB2ECC /* Sources */,
+				A09D01651DAF0BAC00EB2ECC /* Frameworks */,
+				A09D01661DAF0BAC00EB2ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioPlayer;
+			productName = audioPlayer;
+			productReference = A09D01681DAF0BAC00EB2ECC /* audioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09D01601DAF0BAC00EB2ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MananKothari;
+				TargetAttributes = {
+					A09D01671DAF0BAC00EB2ECC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BV24EU3A45;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A09D01631DAF0BAC00EB2ECC /* Build configuration list for PBXProject "audioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09D015F1DAF0BAC00EB2ECC;
+			productRefGroup = A09D01691DAF0BAC00EB2ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09D01671DAF0BAC00EB2ECC /* audioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09D01661DAF0BAC00EB2ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09D01831DAF0E2300EB2ECC /* NextButton.png in Resources */,
+				A09D01891DAF124000EB2ECC /* 03 No Sugar No Cream.mp3 in Resources */,
+				A09D01871DAF0E6F00EB2ECC /* playButton.png in Resources */,
+				A09D01851DAF0E5A00EB2ECC /* pauseButton.png in Resources */,
+				A09D017B1DAF0BAC00EB2ECC /* LaunchScreen.storyboard in Resources */,
+				A09D01781DAF0BAC00EB2ECC /* Assets.xcassets in Resources */,
+				A09D01761DAF0BAC00EB2ECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09D01641DAF0BAC00EB2ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09D01731DAF0BAC00EB2ECC /* ViewController.swift in Sources */,
+				A09D01701DAF0BAC00EB2ECC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A09D01741DAF0BAC00EB2ECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09D01751DAF0BAC00EB2ECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A09D01791DAF0BAC00EB2ECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09D017A1DAF0BAC00EB2ECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A09D017D1DAF0BAC00EB2ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A09D017E1DAF0BAC00EB2ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A09D01801DAF0BAC00EB2ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BV24EU3A45;
+				INFOPLIST_FILE = audioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MananKothari.audioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A09D01811DAF0BAC00EB2ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BV24EU3A45;
+				INFOPLIST_FILE = audioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MananKothari.audioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09D01631DAF0BAC00EB2ECC /* Build configuration list for PBXProject "audioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09D017D1DAF0BAC00EB2ECC /* Debug */,
+				A09D017E1DAF0BAC00EB2ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09D017F1DAF0BAC00EB2ECC /* Build configuration list for PBXNativeTarget "audioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09D01801DAF0BAC00EB2ECC /* Debug */,
+				A09D01811DAF0BAC00EB2ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A09D01601DAF0BAC00EB2ECC /* Project object */;
+}

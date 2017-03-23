@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1AE26C87828C2875B09B0C4AF8F5DB5B3E6D9961",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1AE26C87828C2875B09B0C4AF8F5DB5B3E6D9961" : 9223372036854775807,
+    "0BC4171E80104E1A78A0EE150E9F87C3E3E9D489" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BEB9374D-8618-4B65-8140-266FB4A0A961",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1AE26C87828C2875B09B0C4AF8F5DB5B3E6D9961" : "Swift-Projects\/",
+    "0BC4171E80104E1A78A0EE150E9F87C3E3E9D489" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "playVideo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "playVideo\/playVideo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MMan0114\/Swift-iOS-Projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BC4171E80104E1A78A0EE150E9F87C3E3E9D489"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MMan0114\/Swift-Projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AE26C87828C2875B09B0C4AF8F5DB5B3E6D9961"
+    }
+  ]
+}
